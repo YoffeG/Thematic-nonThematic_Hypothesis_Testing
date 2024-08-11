@@ -1,0 +1,818 @@
+Corpora 	 Nr words in text unit 	 chunks 	 insertion idxs
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 100	 3 	 [151 164 211]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 100	 3 	 [182 291 575]
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 250	 1 	 [16]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 250	 1 	 [41]
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 500	 3 	 [25 38 45]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 500	 3 	 [67 72 99]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 750	 2 	 [71 85]
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 750	 2 	 [10 24]
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 1000	 3 	 [ 1 18 23]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 1000	 3 	 [24 30 61]
+
+[array(['spooky_HPL'], dtype='<U10') array(['Screwtape'], dtype='<U9')] 	 2000	 1 	 [3]
+
+[array(['Potter_2'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 2000	 1 	 [7]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 3 	 [ 30 198 204]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 5 	 [ 8 16 41 79 93]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 3 	 [ 9 18 43]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 100	 3 	 [1282 1679 1973]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 5 	 [ 1 12 24 26 30]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 100	 3 	 [ 11 278 831]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 1 	 [2]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 250	 5 	 [539 678 706 800 929]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 100	 3 	 [151 223 423]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 250	 1 	 [297]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 2 	 [6 9]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 500	 3 	 [125 241 244]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 500	 3 	 [  8  37 135]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 250	 1 	 [198]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 750	 5 	 [ 33  46 112 142 211]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 100	 6 	 [257 404 478 605 635 636]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 750	 2 	 [43 83]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 500	 3 	 [ 64 110 115]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 1000	 1 	 [108]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 1000	 3 	 [ 5 17 76]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 750	 2 	 [66 68]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 250	 5 	 [ 45  82  94 190 257]
+
+[array(['Lotr_3', 'Lotr_2', 'Lotr_1'], dtype='<U6')
+ array(['Percy_5'], dtype='<U7')] 	 2000	 2 	 [21 96]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 2000	 1 	 [5]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 1000	 3 	 [23 35 45]
+
+[array(['spooky_EAP'], dtype='<U10')
+ array(['Potter_3', 'Potter_2'], dtype='<U8')] 	 2000	 1 	 [5]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 500	 2 	 [4 9]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 750	 2 	 [23 73]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 100	 3 	 [ 198 1147 1257]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 100	 3 	 [123 134 452]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 100	 6 	 [ 198 1078 1304 1377 1446 1662]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 1000	 2 	 [ 0 47]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 250	 5 	 [  0   8  32 135 162]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 250	 5 	 [246 433 597 604 828]
+
+[array(['Austen_PP'], dtype='<U20')
+ array(['Kipling_JungleBook2', 'Kipling_JungleBook'], dtype='<U19')] 	 2000	 1 	 [19]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 250	 5 	 [ 86 195 474 596 624]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 500	 3 	 [66 70 86]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 500	 2 	 [331 397]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 500	 3 	 [104 190 276]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 750	 5 	 [14 26 31 32 55]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 750	 2 	 [180 199]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 3 	 [ 47  55 108]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 750	 5 	 [ 10  22  79  90 137]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 1000	 1 	 [35]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 1000	 2 	 [11 23]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 2 	 [35 53]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 1000	 1 	 [101]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 2000	 2 	 [ 5 11]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 4 	 [ 4 10 15 21]
+
+[array(['Austen_Emma', 'Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['Screwtape'], dtype='<U9')] 	 2000	 1 	 [87]
+
+[array(['Holmes_1', 'Holmes_3', 'Holmes_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 2000	 2 	 [18 68]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 1 	 [15]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 100	 3 	 [ 30 253 332]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 1 	 [4]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 100	 6 	 [176 229 348 387 407 461]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 100	 6 	 [ 61  94 127 153 203 216]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 4 	 [0 2 3 6]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 250	 2 	 [  1 129]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 250	 5 	 [ 62  65  85  97 105]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 500	 4 	 [ 7 10 31 32]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 100	 1 	 [227]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 500	 2 	 [ 3 13]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 750	 1 	 [25]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 750	 2 	 [28 41]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 250	 2 	 [ 43 100]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 1000	 1 	 [20]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 1000	 2 	 [10 25]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 500	 2 	 [ 4 73]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_MWS'], dtype='<U10')] 	 2000	 4 	 [ 1  3 11 16]
+
+[array(['Potter_1'], dtype='<U8')
+ array(['Kipling_JungleBook2'], dtype='<U19')] 	 2000	 1 	 [6]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 750	 1 	 [37]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 1000	 2 	 [10 21]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Silmarillion'], dtype='<U12')] 	 2000	 3 	 [ 6 16 18]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 100	 3 	 [220 234 305]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 100	 1 	 [188]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 100	 2 	 [ 49 108]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 250	 2 	 [132 144]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [139 272]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 250	 2 	 [34 63]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 500	 2 	 [ 5 96]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 500	 2 	 [13 21]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 500	 4 	 [ 46  63  86 138]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 750	 1 	 [70]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 750	 5 	 [ 2 14 16 17 20]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 750	 1 	 [9]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 1000	 2 	 [50 73]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 1000	 5 	 [ 2  5  7  9 11]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 1000	 1 	 [95]
+
+[array(['Percy_2', 'Percy_3', 'Percy_1'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 2000	 4 	 [35 38 42 46]
+
+[array(['Potter_4', 'Potter_2'], dtype='<U8')
+ array(['Silmarillion'], dtype='<U12')] 	 2000	 3 	 [15 18 29]
+
+[array(['Screwtape'], dtype='<U9') array(['spooky_MWS'], dtype='<U10')] 	 2000	 1 	 [7]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 100	 2 	 [261 657]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [ 61 286]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 1 	 [515]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 100	 1 	 [89]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 500	 2 	 [62 97]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 2 	 [162 515]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 750	 5 	 [13 79 91 96 99]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 2 	 [209 214]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 250	 2 	 [537 557]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 1000	 5 	 [11 60 61 64 72]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 3 	 [ 86 108 162]
+
+[array(['spooky_MWS'], dtype='<U10') array(['spooky_HPL'], dtype='<U10')] 	 2000	 1 	 [31]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 500	 2 	 [127 313]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 1 	 [180]
+
+[array(['Dickens_TwoCities', 'Dickens_HardTimes', 'Dickens_Pickwick'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 2 	 [14 35]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 750	 1 	 [49]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 1000	 2 	 [63 84]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark', 'Austen_PP'], dtype='<U20')
+ array(['Dickens_TwoCities', 'Dickens_OliverTwist'], dtype='<U19')] 	 2000	 3 	 [64 71 87]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 100	 1 	 [6]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 250	 3 	 [ 75 199 203]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 500	 4 	 [42 49 63 78]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 250	 2 	 [39 71]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 750	 3 	 [29 45 54]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 500	 2 	 [30 32]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 1000	 3 	 [13 15 51]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 750	 3 	 [ 5  6 35]
+
+[array(['spooky_HPL'], dtype='<U10') array(['spooky_EAP'], dtype='<U10')] 	 2000	 4 	 [ 1  3 17 21]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 1000	 1 	 [8]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 100	 2 	 [218 377]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Potter_7', 'Potter_3', 'Potter_2'], dtype='<U8')] 	 2000	 2 	 [ 2 14]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 250	 2 	 [ 15 451]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 100	 3 	 [282 297 337]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 100	 3 	 [148 372 426]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 500	 2 	 [ 96 202]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 750	 5 	 [  6  63  65  90 146]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 250	 5 	 [ 63  77 116 142 152]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 1000	 5 	 [  0   7  61  93 108]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 250	 4 	 [ 28  44 173 269]
+
+[array(['Potter_6', 'Potter_5', 'Potter_3'], dtype='<U8')
+ array(['Holmes_1'], dtype='<U8')] 	 2000	 1 	 [13]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 500	 7 	 [  6  28  48  59  89  96 101]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 500	 3 	 [ 23  77 122]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 750	 3 	 [15 39 65]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 100	 1 	 [83]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 750	 3 	 [ 4 21 24]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 1000	 2 	 [13 35]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [54 66]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 1000	 4 	 [19 31 56 59]
+
+[array(['Dickens_TwoCities'], dtype='<U19')
+ array(['Lotr_3', 'Lotr_1', 'Lotr_2'], dtype='<U6')] 	 2000	 6 	 [ 2  4 13 23 27 29]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 500	 2 	 [55 80]
+
+[array(['spooky_MWS'], dtype='<U10') array(['Lotr_3'], dtype='<U6')] 	 2000	 3 	 [ 9 25 28]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 750	 3 	 [17 19 30]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 1000	 1 	 [2]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 100	 2 	 [ 11 193]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['spooky_HPL'], dtype='<U10')] 	 2000	 2 	 [ 2 15]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 5 	 [  47  199  377 1118 2042]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 250	 1 	 [287]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 100	 3 	 [ 41 172 672]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 7 	 [113 167 322 700 727 734 789]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 500	 3 	 [ 41 124 150]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 250	 4 	 [ 28  49 127 299]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 3 	 [125 303 503]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 750	 3 	 [39 67 75]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 500	 3 	 [ 18  42 170]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 2 	 [ 29 124]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 1000	 3 	 [28 65 73]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 750	 3 	 [ 4 40 65]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 6 	 [  1  49 130 164 289 290]
+
+[array(['Lotr_1'], dtype='<U6')
+ array(['Austen_PP', 'Austen_MansfieldPark'], dtype='<U20')] 	 2000	 3 	 [1 7 8]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 1000	 4 	 [ 1 28 56 82]
+
+[array(['Dickens_TwoCities', 'Dickens_OliverTwist', 'Dickens_Copperfield'],
+       dtype='<U19')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 2 	 [ 47 106]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5'], dtype='<U7')] 	 2000	 3 	 [ 7 15 22]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 100	 1 	 [309]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 100	 1 	 [816]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 100	 5 	 [175 185 271 279 807]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 250	 3 	 [ 34 257 376]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 250	 7 	 [  5   9  28 121 162 199 299]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 250	 6 	 [ 37 104 136 159 275 469]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 500	 3 	 [ 61 116 129]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 500	 3 	 [ 2 39 84]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 500	 2 	 [226 245]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 750	 3 	 [ 8 14 57]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 750	 2 	 [21 77]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 750	 3 	 [ 20  21 135]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 1000	 3 	 [27 61 88]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 1000	 6 	 [ 6 24 42 70 72 75]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 1000	 2 	 [ 35 105]
+
+[array(['Austen_Emma'], dtype='<U20')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 2000	 1 	 [22]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Kipling_Ballads'], dtype='<U15')] 	 2000	 2 	 [13 18]
+
+[array(['Austen_Emma', 'Austen_MansfieldPark'], dtype='<U20')
+ array(['spooky_HPL'], dtype='<U10')] 	 2000	 2 	 [28 67]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 6 	 [ 44  60 130 404 494 651]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 100	 1 	 [73]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 2 	 [122 212]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 100	 1 	 [337]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 3 	 [10 57 91]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 250	 2 	 [ 2 11]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 2 	 [11 43]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 250	 3 	 [30 32 77]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 500	 2 	 [88 99]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 2 	 [20 54]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 500	 3 	 [31 36 51]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 750	 3 	 [ 2 45 70]
+
+[array(['spooky_MWS'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 1 	 [27]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 750	 3 	 [12 53 59]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 1000	 4 	 [39 45 47 48]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 1000	 3 	 [ 1 26 41]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Percy_3', 'Percy_2', 'Percy_5'], dtype='<U7')] 	 2000	 5 	 [ 2  8 20 22 27]
+
+[array(['Silmarillion'], dtype='<U12') array(['Potter_7'], dtype='<U8')] 	 2000	 1 	 [3]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 100	 2 	 [ 2 11]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 100	 4 	 [  7  41  60 109]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 250	 2 	 [39 40]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 250	 2 	 [16 53]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 500	 3 	 [ 0 28 34]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 500	 1 	 [18]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 750	 4 	 [ 3  4 12 29]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 750	 2 	 [12 14]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 100	 6 	 [457 511 551 642 729 868]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 1000	 5 	 [ 2  4 12 13 19]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 1000	 3 	 [ 5  6 14]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Lotr_1', 'Lotr_2', 'Lotr_3'], dtype='<U6')] 	 2000	 4 	 [0 7 8 9]
+
+[array(['Screwtape'], dtype='<U9')
+ array(['Lotr_3', 'Lotr_1'], dtype='<U6')] 	 2000	 1 	 [0]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [46 77]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 100	 2 	 [44 52]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 500	 3 	 [ 20  65 157]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 750	 2 	 [ 76 145]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 100	 2 	 [465 607]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 250	 1 	 [60]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 1000	 2 	 [15 19]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 500	 2 	 [10 14]
+
+[array(['Potter_4', 'Potter_7', 'Potter_2'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 2000	 1 	 [49]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [302 374]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 750	 3 	 [ 1 30 31]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 1000	 1 	 [19]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 500	 5 	 [ 91  94 143 186 191]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Percy_1', 'Percy_3'], dtype='<U7')] 	 2000	 2 	 [ 3 10]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 750	 5 	 [  1  48 111 128 135]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 1000	 4 	 [ 5 40 65 76]
+
+[array(['Holmes_2', 'Holmes_3'], dtype='<U8')
+ array(['spooky_HPL'], dtype='<U10')] 	 2000	 4 	 [20 21 39 46]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 100	 2 	 [125 133]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 250	 2 	 [39 58]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 500	 2 	 [ 4 50]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 750	 5 	 [ 0  2  9 30 33]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 1000	 4 	 [ 3  4  8 21]
+
+[array(['Kipling_Ballads'], dtype='<U15')
+ array(['Silmarillion'], dtype='<U12')] 	 2000	 3 	 [0 5 7]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 100	 4 	 [339 462 572 688]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 250	 4 	 [ 37 180 217 312]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 500	 4 	 [ 15  32 110 139]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 750	 4 	 [ 12  45  47 105]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 1000	 4 	 [24 31 41 66]
+
+[array(['Lotr_2'], dtype='<U6') array(['Percy_5', 'Percy_2'], dtype='<U7')] 	 2000	 5 	 [ 7 22 33 35 37]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 100	 3 	 [137 762 857]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 250	 4 	 [100 157 261 361]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 500	 1 	 [196]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 750	 3 	 [ 86 195 206]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 1000	 2 	 [ 10 107]
+
+[array(['Lotr_2', 'Lotr_3'], dtype='<U6')
+ array(['Kipling_JungleBook'], dtype='<U19')] 	 2000	 5 	 [ 7 17 25 69 72]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 100	 4 	 [ 87 183 294 404]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 250	 7 	 [ 27  40  46  88 101 147 213]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 100	 2 	 [ 48 248]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 500	 3 	 [16 60 70]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 750	 5 	 [30 33 47 50 66]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 250	 5 	 [52 55 58 89 99]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 1000	 2 	 [16 20]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 500	 5 	 [15 26 29 32 54]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_MWS'], dtype='<U10')] 	 2000	 1 	 [4]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 750	 4 	 [ 2  6  9 19]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 100	 4 	 [101 104 194 236]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 1000	 4 	 [ 4  7 16 19]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 250	 6 	 [ 35  71  76  77 100 105]
+
+[array(['Narnia', 'Caspian'], dtype='<U7')
+ array(['Potter_1', 'Potter_3'], dtype='<U8')] 	 2000	 2 	 [1 3]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 500	 1 	 [56]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 750	 1 	 [30]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 100	 2 	 [173 634]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 1000	 6 	 [ 2 11 13 14 15 25]
+
+[array(['Kipling_JungleBook'], dtype='<U19')
+ array(['Screwtape'], dtype='<U9')] 	 2000	 4 	 [ 2  3  4 12]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 250	 2 	 [ 87 205]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 100	 2 	 [ 27 420]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 500	 5 	 [ 17  35  51  92 113]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 250	 2 	 [128 215]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 750	 4 	 [14 28 33 78]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 500	 3 	 [83 85 87]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 1000	 3 	 [ 4 29 32]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 750	 6 	 [19 54 60 67 75 80]
+
+[array(['Silmarillion'], dtype='<U12') array(['spooky_HPL'], dtype='<U10')] 	 2000	 4 	 [ 1  2  3 22]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 1000	 3 	 [20 26 48]
+
+[array(['spooky_HPL'], dtype='<U10')
+ array(['Narnia', 'Caspian'], dtype='<U7')] 	 2000	 1 	 [9]
+
